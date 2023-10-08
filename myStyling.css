@@ -1,0 +1,15 @@
+nav, h2, h3, h4 {  color: #333333;
+font-family: "Trebuchet MS", Helvetica, sans-serif; }
+
+nav ul { margin: 0; 
+font-size: 1.2em;
+list-style-type: none;
+padding-right: 2em;
+}
+
+nav li { display: inline; padding-left: 2em; width:30%}
+nav a { text-decoration: none; 
+}
+nav a:link { color: #3c07eb; }
+nav a:visited { color: #497777; }
+nav a:hover { color: #07c1eb;  }
