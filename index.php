@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 
+
 <html lang = "eng">
   <head>
-    <script>
-      
-    </script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script type="text/javascript"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="myStyling.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <link rel="icon" type="image/x-icon" href="favicon.png">
+
     <title>Home</title>
   </head>
 
   <body class="body_style dark">
     <ul class="nav nav-pills nav-fill" class="dark">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="events.html">Events</a>
+        <a class="nav-link" href="events.php">Events</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="celebrities.html">Celebrities</a>
+        <a class="nav-link" href="celebrities.php">Celebrities</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="animals-facts-page.html">Fun Facts</a>
+        <a class="nav-link" href="animals-facts-page.php">Fun Facts</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="donations.html">Donations</a>
+        <a class="nav-link" href="donations.php">Donations</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="contacts.html">Contacts</a>
+        <a class="nav-link" href="contacts.php">Contacts</a>
       </li>
     </ul>
     <header class="banner-picture">
@@ -47,7 +53,7 @@
           <div class="box dark"> 
             <div class="image">
               <a target="_blank" href="https://sandiegozoowildlifealliance.org/">
-                <img src="San_Diego_Zoo.jpg" class="zoo">
+                <img src="images/San_Diego_Zoo.jpg" class="zoo">
                 <div class="text"> The San Diego Zoo  </div>
               </a>
               <p class="image-caption">Here is the San Diego Zoo! This zoo opened its doors in 1916. It spans over 100 acres of land and is home to more than 12,000 endangered animals. </p>
@@ -56,7 +62,7 @@
           <div class="box dark"> 
             <div class="image">
               <a target="_blank" href="https://www.chesterzoo.org/">
-                <img src="Chester_Zoo.jpg" class="zoo">
+                <img src="images/Chester_Zoo.jpg" class="zoo">
                 <div class="text"> The Chester Zoo  </div>
               </a>
               <p class="image-caption">Here is the Chester Zoo! Home to more than 20,000 animals and a fantastic conservation program. This zoo allows for guests to receive education in the field of wildlife conservation.</p>
@@ -65,7 +71,7 @@
           <div class="box dark"> 
             <div class="image">
               <a target="_blank" href="https://www.alaskazoo.org/">
-                <img src="The_Alaska_Zoo.jpg" class="zoo">
+                <img src="images/The_Alaska_Zoo.jpg" class="zoo">
                 <div class="text"> The Alaska Zoo  </div>
               </a>
               <p class="image-caption">Here is the Alaska Zoo! It is one of the smaller zoos on this list but for a good reason. The Alaska Zoo specializes in local animals such as the brown bear, bald eagle, moose, hawk, and harbor seals. It is a registered nonprofit that is dedicated to promoting the conservation of The Arctic.</p>
@@ -74,7 +80,7 @@
           <div class="box dark"> 
             <div class="image">
               <a target="_blank" href="https://www.torontozoo.com/">
-                <img src="The_Toronto_Zoo.jpg" class="zoo">
+                <img src="images/The_Toronto_Zoo.jpg" class="zoo">
                 <div class="text"> The Toronto Zoo  </div>
               </a>
               <p class="image-caption">Here is the Toronto Zoo! This zoo spans an expansive 710 acres and provides its animals with naturalized environments. The Toronto Zoo is also home to more than 5,000 animals. The Zoo boasts an in-depth species recovery program.</p>
@@ -83,7 +89,7 @@
           <div class="box dark"> 
             <div class="image">
               <a target="_blank" href="https://www.lpzoo.org/">
-                <img src="Lincoln_Park_Zoo.jpg" class="zoo">
+                <img src="images/Lincoln_Park_Zoo.jpg" class="zoo">
                 <div class="text"> The Lincoln Park Zoo  </div>
               </a>
               <p class="image-caption">Here is The Lincoln Park Zoo! This zoo is one of the oldest in north america and one of th very few zoos that has free admission for all. Anyone can come and say hi to animals like the African Lion or the Pygmy Hippo. The zoo also has an impressive global conservation program!</p>
@@ -92,16 +98,16 @@
           <div class="box dark"> 
             <div class="image">
               <a target="_blank" href="https://www.mandai.com/en/singapore-zoo.html">
-                <img src="The_Singapore_Zoo.jpg" class="zoo">
+                <img src="images/The_Singapore_Zoo.jpg" class="zoo">
                 <div class="text"> The Singapore Zoo </div>
               </a>
               <p class="image-caption">Here is the Singapore Zoo! This zoo is a decent size with its 4,000 animals sprinkled across the lush rainforest landscape. The Singapore Zoo has animals including everything from sloths to African penguins. It's educational program makes the zoo even better!</p>
             </div>
           </div>
-          <div class="box dark"> 
+          <div class="box dark a"> 
             <div class="image">
               <a target="_blank" href="https://taronga.org.au/sydney-zoo">
-                <img src="The_Taronga_Zoo.jpg" class="zoo">
+                <img src="images/The_Taronga_Zoo.jpg" class="zoo">
                 <div class="text"> Taronga Zoo Sydney  </div>
               </a>
               <p class="image-caption">Here is the Taronga Zoo in Sydney, Australia! Taronga Zoo is home to about 350 different species of animals. This beautiful zoo spans 69 acres of land and works on various conservation and breeding programs. This includes a big city birds project that invites the public to report sightings of bird on an app.</p>
@@ -110,7 +116,7 @@
           <div class="box dark"> 
             <div class="image">
               <a target="_blank" href="https://bronxzoo.com/">
-                <img src="The_Bronx_Zoo.jpg" class="zoo">
+                <img src="images/The_Bronx_Zoo.jpg" class="zoo">
                 <div class="text"> The Bronx Zoo </div>
               </a>
               <p class="image-caption">Here is the Bronx Zoo! The Bronx Zoo is unimaginably expansive. This Zoo opened its doors back in 1899 and since then has been home to more than 10,000 animals, out of which there were 700 unique species. This zoo is over 265 acres big and has worked to save endangered animals through its research and breeding of animals such as the American bison.</p>
@@ -120,7 +126,23 @@
       </main>
     </div>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <script>
+      $(document).ready(function(){
+        alert("Hello! Welcome to my website!");
+      })
+    </script>
+
+    <?php
+    $host = "localhost";
+    $username = "root";
+    $password = "IMe5Z@N4X)K/!1y-";
+    $database = "salardb";
+
+    $mysqli = new mysqli($host, $username, $password, $database);
+    
+    echo $mysqli->host_info . "\n";
+    ?>
   </body>
 </html>
 
