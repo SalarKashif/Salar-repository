@@ -48,7 +48,7 @@
       <main id="contacts_main">
         <h3 class="intro-caption dark">Contact us!</h3>
       </main>
-      <form onsubmit="Email.send(); reset(); return false;">
+      <form onsubmit="contact_form_submit()">
         <div class="form-group">
           <label for="exampleInputName1">name</label>
           <input type="name" class="form-control" id="Name" aria-describedby="emailHelp" placeholder="Enter name">
@@ -68,5 +68,11 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
+
+    <script>
+      function contact_form_submit(){
+        alert("Contact form submitted!");
+      }
+    </script>
   </body>
 </html>
