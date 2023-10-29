@@ -48,9 +48,9 @@
       <main id="contacts_main">
         <h3 class="intro-caption dark">Contact us!</h3>
       </main>
-      <form onsubmit="contact_form_submit()">
+      <form class = "dark" onsubmit="contact_form_submit()" style="padding: 1.4%;">
         <div class="form-group">
-          <label for="exampleInputName1">name</label>
+          <label for="exampleInputName1">Name</label>
           <input type="name" class="form-control" id="Name" aria-describedby="emailHelp" placeholder="Enter name">
         </div>
         <div class="form-group">
@@ -68,7 +68,7 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
-
+    <footer><div class="darker footerbar"><p><a href = "mailto: skashif@students.kennesaw.edu">Send Email</a></p></div></footer>
     <script>
       function contact_form_submit(){
         alert("Contact form submitted!");

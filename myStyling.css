@@ -372,3 +372,41 @@ body{margin-top:20px;}
   top: 0;
   width: 100%;
 }
+
+.animal-facts-table {
+    width: 60%;
+    margin: auto;
+    align-items: center;
+}
+
+.search-container{
+    padding: 1%;
+    align-items: right;
+    width: 60%;
+    align-self: center;
+    left: 18%;
+    position: relative;
+}
+
+.search_form{
+    width: 30%;
+    align-self: right;
+}
+
+footer {  
+    position: fixed;  
+    bottom: 5px; 
+    align-self: center; 
+    width: 100%;
+}
+
+.darker{
+    background-color: black;
+}
+
+.footerbar{
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
