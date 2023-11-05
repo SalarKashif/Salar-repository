@@ -419,3 +419,47 @@ footer {
 .no-underline-anchor{
     text-decoration: none;
 }
+
+.celebrity-picture-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    
+}
+
+.image-caption-dark{
+    font-size: 12pt;
+    color: black;
+}
+
+.celebrity-picture{
+    border-radius: 50px;
+    width: 472px; 
+    height: 354px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
